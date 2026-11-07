@@ -5,7 +5,7 @@ interface Props {
 export default function Footer({ className }: Props) {
   return (
     <footer className={className}>
-      <p className="text-white text-xl">
+      <p className="text-white text-xl text-start">
         Made by{" "}
         <a
           className="text-red-700"
@@ -14,14 +14,15 @@ export default function Footer({ className }: Props) {
         >
           Trev7or23
         </a>{" "}
-        From the Midudev{" "}
+        From the{" "}
         <a
           className="text-[#09f] font-bold "
           href="https://www.youtube.com/watch?v=p2wF2wRjcN0"
           target="_blank"
         >
-          Course
-        </a>
+          Midudev
+        </a>{" "}
+        Course
       </p>
     </footer>
   );

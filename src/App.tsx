@@ -17,7 +17,7 @@ function App() {
         {!isVisible && <Start />}
       </div>
 
-      {!isVisible && <Footer />}
+      {!isVisible && <Footer className="mt-auto" />}
     </main>
   );
 }
